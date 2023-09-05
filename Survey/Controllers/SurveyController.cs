@@ -42,7 +42,7 @@ public class SurveyController : Controller
     }
 
     [HttpPost("submit")]
-    public IActionResult Process(string name, string location, string language, string comment)
+    public IActionResult Submit(string name, string location, string language, string comment)
     {
         ViewBag.Name = name;
         ViewBag.Location = location;
