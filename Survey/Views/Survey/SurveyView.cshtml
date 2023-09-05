@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    
+    <form action="submit" method="post" style="margin-top: 300px;>
+        <div class="form-outline border" style="width: 500px;">
+            <div class="d-flex">
+                <label>Your Name:</label>
+                <input type="text" name="name" class="form-control form-control-lg" type="text" placeholder="Name" aria-label="default input example" />
+            </div>
+            <div class="d-flex">
+                <label>Dojo Location:</label>
+                <select name="location" class="form-control form-control-lg">
+                    <option value="Texas">Texas</option>
+                    <option value="Applebees">Applebees</option>
+                    <option value="An old BlockBuster">An old BlockBuster</option>
+                </select>
+            </div>
+            <div class="d-flex">
+                <label>Favorite Language:</label>
+                <select name="language" class="form-control form-control-lg">
+                    <option value="C#">C#</option>
+                    <option value="Python">Python</option>
+                    <option value="JS">JS</option>
+                </select>
+            </div>
+            <div class="d-flex">
+                <label>Comment (optional):</label>
+                <textarea name="comment" class="form-control form-control-lg" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
